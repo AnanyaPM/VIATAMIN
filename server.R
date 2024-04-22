@@ -10,6 +10,7 @@ library(gganimate)
 library(shinycssloaders)
 library(tools)
 library(readxl)
+library(lubridate)
 # library(ggiraph)
 
 # Functions:
@@ -1643,13 +1644,13 @@ server <- function(input, output, session) {
                                          splitLayout(cellWidths = c('50%', '50%'),
                                                      numericInput(
                                                        inputId = "stop_ANC_lower",
-                                                       label = "ANC threshold",
+                                                       label = "ANC maximum threshold",
                                                        value = input_vals$stop_ANC_lower,
                                                        width = '100px'),
                                                      
                                                      numericInput(
                                                        inputId = "stop_PLT_lower",
-                                                       label = "PLT Threshold",
+                                                       label = "PLT maximum threshold",
                                                        value = input_vals$stop_PLT_lower,
                                                        width = '100px'))
                                      ),
@@ -1659,26 +1660,26 @@ server <- function(input, output, session) {
                                          splitLayout(cellWidths = c('50%', '50%'),
                                                      numericInput(
                                                        inputId = "red_ANC_lower",
-                                                       label = "ANC lower threshold",
+                                                       label = "ANC minimum threshold",
                                                        value = input_vals$red_ANC_lower,
                                                        width = '100px'),
                                                      
                                                      numericInput(
                                                        inputId = "red_ANC_upper",
-                                                       label = "ANC upper Threshold",
+                                                       label = "ANC maximum Threshold",
                                                        value = input_vals$red_ANC_upper,
                                                        width = '100px'),
                                          ),
                                          splitLayout(cellWidths = c('50%', '50%'),
                                                      numericInput(
                                                        inputId = "red_PLT_lower",
-                                                       label = "PLT lower threshold",
+                                                       label = "PLT minimum threshold",
                                                        value = input_vals$red_PLT_lower,
                                                        width = '100px'),
                                                      
                                                      numericInput(
                                                        inputId = "red_PLT_upper",
-                                                       label = "PLT upper Threshold",
+                                                       label = "PLT maximum Threshold",
                                                        value = input_vals$red_PLT_upper,
                                                        width = '100px'),
                                          ),
@@ -1694,13 +1695,13 @@ server <- function(input, output, session) {
                                          splitLayout(cellWidths = c('50%', '50%'),
                                                      numericInput(
                                                        inputId = "inc_ANC_upper",
-                                                       label = "ANC upper threshold",
+                                                       label = "ANC minimum threshold",
                                                        value = input_vals$inc_ANC_upper,
                                                        width = '100px'),
                                                      
                                                      numericInput(
                                                        inputId = "inc_PLT_upper",
-                                                       label = "PLT upper Threshold",
+                                                       label = "PLT minimum Threshold",
                                                        value = input_vals$inc_PLT_upper,
                                                        width = '100px'),
                                          ),
@@ -2030,6 +2031,7 @@ server <- function(input, output, session) {
           df_read <- read.csv(df$datapath)
         }
         if(file_ext(df$datapath) %in% c("xls", "xlsx")){
+          # print("file path = excel, reading data file for display")
           df_read <- read_excel(df$datapath)
         }
         

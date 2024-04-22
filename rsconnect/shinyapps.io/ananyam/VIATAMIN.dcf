@@ -1,0 +1,14 @@
+name: VIATAMIN
+title: VIATAMIN
+username:
+account: ananyam
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9348405
+bundleId: 7583772
+url: https://ananyam.shinyapps.io/VIATAMIN/
+when: 1692357908.95184
+lastSyncTime: 1692357908.9519
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData

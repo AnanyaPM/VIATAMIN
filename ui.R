@@ -371,7 +371,7 @@ body <- dashboardBody(
                                        <b> 'Weeks'</b>, &nbsp; <b> 'ANC'</b>, &nbsp; <b> 'PLT'</b>, &nbsp; <b> 'Hb'</b>, &nbsp; <b> 'MP'</b>, &nbsp;
                                        <b>'MP_adj'</b>*, &nbsp; <b> 'MTX' </b>, &nbsp; and &nbsp; <b>'MTX_adj'</b>* </li>
                                   <li> Ensure all values are numeric in nature </li>
-                                  <li> Ensure date formats are standard across all uploaded sheets </li>
+                                  <li> Ensure date formats are standard dates across all uploaded sheets </li>
                                   <li> Ensure files are in .csv or excel (.xls or .xlsx) formats  </li> </ul>
                                   <i> Refer to example below </i>
                                   </h5></ul>"),
@@ -437,7 +437,8 @@ body <- dashboardBody(
 
                                   [3]. Mungle T, Mahadevan A, Krishnan S (2023).
                                   allMT: Acute Lymphoblastic Leukemia Maintenance Therapy Analysis. https://CRAN.R-project.org/package=allMT .
-                                  <b> (R Package) </b> "),
+                                  <b> (R Package) </b> <br>
+                                  <i>Source code </i>:  https://github.com/tmungle/allMT; <i>Functions</i>: https://tmungle.github.io/allMT/."),
                                   collapsible = T, collapsed = T, solidHeader = T, width = 9)
                        ),
                        
