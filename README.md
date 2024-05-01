@@ -17,30 +17,33 @@ FUNCTIONS:
 **For an individual patient**
 1. To track patient’s MT progression during or after therapy.
 
-2. To track patient’s cycle-by-cycle MT progression during or after the therapy using summary measure (SM) weighted mean (6MP*MTX) vs weighted mean ANC parameters in a scatterplot.
+2. To track patient’s cycle-by-cycle MT progression during or after the therapy using summary measure (SM): weighted mean (6MP*MTX) vs weighted mean ANC parameters in a scatterplot.
 
 3. Asses hematological toxicities - neutropenia, thrombocytopenia and anemia during MT.
 
 4. Evaluate median time to first 6MP dose increase for the cohort.
 
-5. Evaluate real time dosing decisions (stop, reduce or increase) by the physicians during MT based on MT dosing guidelines [2]
+5. Evaluate real-time physician dosing decisions (stop, reduce or increase) during MT based on MT dosing guidelines [2]
 
 **For a cohort of patients**
 
-1. SM plot to analyze MT for a given cohort defined by the user. SM is evaluated for each patient and plotted together to represent the entire cohort.
+1. Summarize MT for a given cohort defined by the user. SM is evaluated for each patient and plotted together to represent the entire cohort.
 
-2. Compare SM for two or more cohort defined by the user to evaluate MT practice. Cohort comparisons can include clinical interventions, year-wise evolution, patients treated by two different set of physicians, or as user see it fit.
+2. Compare MT practice for two or more cohorts defined by the user. Cohort comparisons can include clinical interventions, year-wise evolution, patients treated by two different set of physicians etc.
 
 3. Asses hematological toxicities - neutropenia, thrombocytopenia and anemia during MT.
 
-4. Plot depicting median time to first 6MP dose increase for the cohort.
+4. Median time to first 6MP dose increase for the cohort.
 
-5. Evaluate real time dosing decisions (stop, reduce or increase) by the physicians during MT based on MT dosing guidelines [2]
+5. Evaluate real-time dosing decisions (stop, reduce or increase) during MT based on MT dosing guidelines [2]
 
 *Please refer to in-app reference manual for detailed instructions and explanations*
 
 # Authorship
 Ananya Mahadevan, Dr. Tushar Mungle and Dr. Shekhar Krishnan. 
+
+# Contribution
+By abiding to Contributor Code of Conduct, contribution to *VIATAMIN* in any form bug fixes/code modification/new code development is welcomed.
 
 # References
 [1] K. Schmiegelow, S. N. Nielsen, T. L. Frandsen, and J. Nersting, “Mercaptopurine/methotrexate maintenance therapy of childhood acute lymphoblastic leukemia: Clinical facts and fiction,” Journal of pediatric hematology/oncology, vol. 36, no. 7, p. 503, 2014.
