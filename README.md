@@ -37,7 +37,7 @@ FUNCTIONS:
 
 5. Evaluate real-time dosing decisions (stop, reduce or increase) during MT based on MT dosing guidelines [2]
 
-*Please refer to in-app reference manual for detailed instructions and explanations*
+*Please refer to reference manual in "Futher Explanation" tab on the app homepage for detailed instructions and explanations*
 
 # Authorship
 Ananya Mahadevan, Dr. Tushar Mungle and Dr. Shekhar Krishnan. 
