@@ -4,7 +4,7 @@
 Maintenance therapy (MT) is the final stage in acute lymphoblastic leukemia treatment. This phase lasts 2 years and requires consistent assessment of blood counts and clinical features, and subsequent dose adjustment of drugs 6 mercaptoppurine (6MP) and methotrexate (MTX) every 1-3 weeks depending on the protocol. Globally, a practice of "treat of tolerance" has been adopted to allow for individualised optimal treatment. [1-4]
 
 ***VIATAMIN*** is a Shiny R-based app for visualisation and analysis of maintenance therapy (MT) data in acute lymphoblastic leukaemia.
-Based on the functions developed using the *[allMT]([url](https://github.com/tmungle/allMT))* R package (CRAN) [5], this app allows for simple and quick visual and numeric analysis of MT data for an individual patient or a cohort of patients at any point during treatment.
+Based on the functions developed using the *[allMT][https://github.com/tmungle/allMT]* R package (CRAN) [5], this app allows for simple and quick visual and numeric analysis of MT data for an individual patient or a cohort of patients at any point during treatment.
 
 # Accession
 app URL: https://ananyam.shinyapps.io/VIATAMIN/
